@@ -1,0 +1,172 @@
+.container_collections{
+ 
+    margin: 3rem auto;
+   width: 70%; 
+}
+
+.container_collections h1{
+   font-weight: 520;
+   font-size: 38px;
+}
+
+.sub_heading__container{
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+   flex-wrap: wrap;	
+}
+.sub_heading__container span{
+   color: darkslategrey;
+}
+
+.sub_heading__container span:nth-child(2){
+   color: rgb(239,79,95);
+   font-size: 13px;
+   cursor: pointer;
+}
+
+.sub_heading__container span[id=span]:hover{
+   text-decoration: underline red;
+   color: red;
+}
+
+.collections__cards_container{
+   display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-top: 2.5rem;
+}
+
+.cards{
+   height: 300px;
+   min-width: 240px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+   position: relative;
+} 
+
+.cards:hover{
+   transform: scale(1.01);
+   box-shadow: 0 0 15px 5px #A0A0A0;
+   cursor: pointer;
+} 
+
+.overlay{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 10px;
+   overflow: hidden;
+   background: linear-gradient(0deg, rgba(80,80,80,0.8)0%, rgba(0,0,0,0)50%, rgba(0,0,0,0)100%);
+   z-index: 5;
+}
+.overlay img{
+   width: 100%;
+   height: 100%;
+   
+}
+
+.collections__content{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   color: white;
+   padding-left: 8px;
+   padding-bottom: 12px;
+   font-size: 0.9rem;
+   z-index: 6;
+} 
+
+
+
+
+
+
+
+
+ /* .container_collections {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .container_collections h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sub_heading__container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sub_heading__container span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  #span {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .collections__cards_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .cards {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cards:hover .overlay {
+    opacity: 1;
+  }
+  
+  .collections__content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+  }
+  
+  .collections__content h4 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .collections__content span {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+   */

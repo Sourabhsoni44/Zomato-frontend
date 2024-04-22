@@ -1,0 +1,187 @@
+/* html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+
+}
+.main{
+    margin: 2px 560px;
+    height: 518px;
+    width: 340px;
+    border-radius: 3px solid white; 
+    background-color: white;
+    padding-left: 70px;
+    border-radius: 20px;
+}
+h1{
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+ input{
+    height: 28px;
+    width: 259px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 0.4rem;
+}
+
+.box{
+    height: 30px;
+    width: 250px;
+    border-radius: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 0.4rem;
+} 
+.boxpass{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    background-color:
+    #ef4f5f ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(207, 207, 207);
+    color: white;
+    border-radius: 0.4rem;
+}
+
+.text{
+    margin: 60px 0px;
+
+}
+
+.check{
+    display: flex;
+    margin-right: 50px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    color: rgb(28, 28, 28);
+    cursor: pointer;
+   
+}
+.red{
+     color: rgb(239, 79, 95);;
+}
+#checkbox{
+    height: 15px;
+    position: relative;
+    top: 40px;
+    right: 150px;
+} */
+
+
+
+
+
+
+
+/* .register {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.register > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+} */
+
+
+
+
+
+ html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+
+} 
+
+.register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register input {
+    width: 378px;
+    /* width: 100%; */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register input[type="text"],
+.register input[type="password"] {
+    height: 40px;
+}
+
+.register .button {
+    cursor: pointer;
+    background-color: #ef4f5f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.register .button:hover {
+    background-color: #c31320;
+}
+
+.register .button:last-of-type {
+    background-color:#2649e1;
+}
+
+.register .button:last-of-type:hover {
+    background-color: #2649e1;
+}

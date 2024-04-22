@@ -1,0 +1,73 @@
+/* 
+.container-1{
+    display: flex;
+}
+
+.orderlist{
+    display: flex;
+    background-color:gray;
+} */
+
+
+
+
+
+/* Styles for the container-1 */
+.container-1 {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 800px;
+  }
+  
+  /* Styles for the orderlist */
+  .orderlist {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .orderlist h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .orderlist h3 {
+    margin-top: 20px;
+  }
+  
+  .orderlist p {
+    margin: 5px 0;
+  }
+  
+  .orderlist ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .orderlist li {
+    border-bottom: 1px solid #ced4da;
+    padding: 10px 0;
+  }
+  
+  /* Styles for the container-2 */
+  .container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* Styles for the stars */
+  .container-2 .fa-star {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .container-2 .fa-star:hover {
+    color: gold;
+    cursor: pointer;
+  }
+  
